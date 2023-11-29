@@ -21,6 +21,9 @@ const config: Config = {
       secondary: {
         DEFAULT: "#182237",
       },
+      tertiary: {
+        DEFAULT: "#2e374a",
+      },
       neutral: {
         DEFAULT: "#FFF",
         n00: "#b7bac1",

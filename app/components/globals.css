@@ -27,3 +27,7 @@ a {
 .content-flex-4 {
   flex: 4;
 }
+
+.active {
+  background-color: #2e374a;
+}
