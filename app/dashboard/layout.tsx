@@ -4,11 +4,11 @@ import Navbar from "../components/dashboard/navbar/navbar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
-      <div>
+    <div className="layout-container flex">
+      <div className="menu flex-1 bg-secondary p-5">
         <SideNavigation />
       </div>
-      <div>
+      <div className="content content-flex-4 p-5">
         <Navbar />
         {children}
       </div>
