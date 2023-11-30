@@ -15,6 +15,7 @@ const config: Config = {
       },
     },
     colors: {
+      transparent: "transparent",
       primary: {
         DEFAULT: "#151c2c",
       },

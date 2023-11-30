@@ -111,6 +111,10 @@ export default function sideNavigation() {
           </li>
         ))}
       </ul>
+      <button className="p-5 my-1 mx-0 flex items-center cursor-pointer rounded-lg gap-3 bg-none border-none text-neutral w-full hover:bg-tertiary">
+        <MdLogout />
+        Logout
+      </button>
     </div>
   );
 }
